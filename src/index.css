@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.prnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo-container{
+  display: flex;
+  flex-direction: column;
+}
+.todoBar{
+  display: flex;
+  justify-content: center;
+}
+.todos{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.checked{
+  text-decoration: line-through;
+}
+.btn{
+  border-radius: 10px;
+  margin-left: 12%;
+  background: #09d3ac;
+  color: whitesmoke;
+}
+.inpt{
+  border-radius: 4px;
+}
+.btn-todo-done{
+  border-radius: 20px;
+  background: #e69de6;
+}
+.btn-todo-remove{
+  border-radius: 20px;
+  background: #e69de6;
+}
